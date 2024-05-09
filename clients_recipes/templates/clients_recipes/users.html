@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% for u in users %}
+{{ u }}
+{% endfor %}</h1>
+{% include 'clients_recipes/includes/to_index.html' %}
+{% endblock %}
