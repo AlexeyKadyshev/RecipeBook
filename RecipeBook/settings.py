@@ -28,7 +28,7 @@ CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'alexeykkdd0404.pythonanywhere.com',
+    'aalexey0404.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
@@ -112,10 +112,10 @@ WSGI_APPLICATION = 'RecipeBook.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'alexeykkdd0404$default',
-        'USER': 'alexeykkdd0404',
+        'NAME': 'aalexey0404$default',
+        'USER': 'aalexey0404',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'alexeykkdd0404.mysql.pythonanywhere-services.com',
+        'HOST': 'aalexey0404.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
